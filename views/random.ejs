@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1>Your random number: <%= num %></h1>
+        <% if (num % 2 == 0) { %>
+            <h2>And is even! 🥳🥳🥳</h2>
+       <% } else { %>
+        <h2>And is odd! 🤪🤪🤪</h2>
+        <% } %> 
+        <h3> <%= num % 2 == 0 ? 'And is even! 🥳🥳🥳' : 'And is odd! 🤪🤪🤪'%></h3>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+    "pokemon" : {
+        "name" : "Pokemon API",
+        "version" : "2",
+        "db" : [
+            {
+                "name" : "Arcanine",
+                "type" : "Fire",
+                "cuteness" : ">9000",
+                "img" : "https://images.gameinfo.io/pokemon/256/059-00.png"
+            },
+            {
+                "name" : "Squirtle",
+                "type" : "Water",
+                "cuteness" : "5555",
+                "img" : "https://pm1.narvii.com/6159/3ef6c4a73a478bb9c7de0bcd6bab6c085bbc2923_hq.jpg"
+            },
+            {
+                "name" : "Ditto",
+                "type" : "Unknown",
+                "cuteness" : "0",
+                "img" : "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png"
+            }
+        ]
+    }
+}
